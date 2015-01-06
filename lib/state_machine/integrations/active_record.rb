@@ -472,7 +472,7 @@ module StateMachine
           define_helper :instance, <<-end_eval, __FILE__, __LINE__ + 1
             def initialize(*)
               super do |*args|
-                self.class.state_machines.initialize_states(self, :static => false)
+                self.class.state_machines.initialize_states(self)
                 yield(*args) if block_given?
               end
             end
