@@ -2,11 +2,11 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 require 'state_machine/version'
 
 Gem::Specification.new do |s|
-  s.name              = "state_machine"
+  s.name              = "telvue_state_machine"
   s.version           = StateMachine::VERSION
-  s.authors           = ["Aaron Pfeifer"]
-  s.email             = "aaron@pluginaweek.org"
-  s.homepage          = "http://www.pluginaweek.org"
+  s.authors           = ["Benjamin Liu"]
+  s.email             = "bliu@telvue.com"
+  s.homepage          = "http://www.telvue.com"
   s.description       = "Adds support for creating state machines for attributes on any Ruby class"
   s.summary           = "State machines for attributes"
   s.require_paths     = ["lib"]
