@@ -69,6 +69,12 @@ You can find much more detailed documentation in the actual API.
 
 ## Usage
 
+Add to your gemfile:
+
+``` ruby
+gem 'telvue_state_machine', require: 'state_machine'
+```
+
 ### Example
 
 Below is an example of many of the features offered by this plugin, including:
