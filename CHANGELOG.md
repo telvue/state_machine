@@ -1,8 +1,10 @@
-# master
+## 1.2.2 / 2020-05-08
+* Fix ruby 2.7 deprecation warnings
 
-* Raise InvalidContext error when the current state does not define a state-driven behavior
-* Fix target state being indeterminate for transitions that use blacklists
-* Allow super to be called within state-driven behaviors
+## 1.2.1 / 2016-03-14 TelVue Fork
+
+* Merge pull request #2 from reedlaw/master
+  ** fix after_transition
 
 ## 1.2.0 / 2013-03-30
 
